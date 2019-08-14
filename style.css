@@ -19,7 +19,8 @@
   width: 18rem;
 }
 .card-img-top{
-  height: 33vh
+  height: 33vh;
+  margin-bottom: 3;
 }
 .body {
     padding:0;
