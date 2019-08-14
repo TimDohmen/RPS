@@ -25,16 +25,18 @@
     padding:0;
     margin:0;
     overflow:hidden;
-	min height: 150vh;
+	  max-height: 120vh;
 }
 .canvas {
     padding:0;
     margin:0;
     opacity: .5;
+    max-height: 120vh;
 }
 .btnbg {
     position: absolute;
     left:0;
     top:0;
     opacity: 1;
+    max-height: 120vh;
 }
