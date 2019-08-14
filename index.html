@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body class="main">
+  <div id="score" class="scoreboard d-flex justify-content-center sticky-top">Scoreboard : Computer 0 Player 0 Draw 0
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center pb-3">
+        <h1>Rock Paper Scissors Bug!</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 d-flex justify-content-around pb-5">
+        <div class="card">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81xWax3dTVL._SX425_.jpg" class="card-img-top"
+            alt="Rock">
+          <div class="card-body">
+            <h5 class="card-title">Rock</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Smash your opponent with a big rock</h6>
+            <button class="float-right btn-danger" type="button" id="rock" onclick="play('rock')">Rock!</button>
+
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/49kzardP3Fo/maxresdefault.jpg" class="card-img-top" alt="Paper">
+          <div class="card-body">
+            <h5 class="card-title">Paper</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Smother your opponent with paper</h6>
+            <button class="float-right btn-success" type="button" id="paper" onclick="play('paper')">Paper!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 d-flex justify-content-around">
+        <div class="card">
+          <img src="https://www.bglieberman.com/wp-content/uploads/2017/10/826-5-5-Embroidery-Scissors.jpg"
+            class="card-img-top" alt="Scissors">
+          <div class="card-body">
+            <h5 class="card-title">Scissors</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Slice your opponent with scissors</h6>
+            <button class="float-right btn-primary" type="button" id="scissors"
+              onclick="play('scissors')">Sciissors!</button>
+
+          </div>
+        </div>
+        <div class="card">
+          <img src="istock000008997807large.jpg" class="card-img-top" alt="Cockroach">
+          <div class="card-body">
+            <h5 class="card-title">Cockroach</h5>
+            <h6 class="card-subtitle mb-2 text-muted">How do you kill a Cockroach...?</h6>
+            <button class="float-right btn-secondary" type="button" id="bug" onclick="play('bug')">Cockroach! </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

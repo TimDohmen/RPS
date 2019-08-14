@@ -1,0 +1,23 @@
+.tester{
+  justify-content: space-evenly;
+
+}
+
+.scoreboard{
+  min-height: 5vh;
+  background-color: darkseagreen;
+  color: black
+}
+
+.buttons{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card{
+  width: 18rem;
+}
+.card-img-top{
+  height: 33vh
+}
